@@ -1,0 +1,446 @@
+Loaded 1622 lab items
+Loaded 18087 prescriptions
+Loaded 4506 diagnoses
+Loaded 109775 ICD diagnosis definitions
+
+============================================================
+1. SYSTEMATIC EXPLORATION OF LAB ITEMS
+============================================================
+
+Total unique lab items: 1622
+
+----------------------------------------
+LAB CATEGORIES:
+category
+Hematology    781
+Chemistry     777
+Blood Gas      64
+Name: count, dtype: int64
+
+----------------------------------------
+POTENTIAL DIABETES-RELATED LABS:
+
+'GLUCOSE' found in 13 lab items:
+  52027: Glucose, Whole Blood (Blood Gas)
+  50809: Glucose (Blood Gas)
+  50931: Glucose (Chemistry)
+  52569: Glucose (Chemistry)
+  51941: Glucose, Stool (Chemistry)
+  51084: Glucose, Urine (Chemistry)
+  51981: Glucose (Chemistry)
+  50842: Glucose, Ascites (Chemistry)
+  51053: Glucose, Pleural (Chemistry)
+  51022: Glucose, Joint Fluid (Chemistry)
+  51034: Glucose, Body Fluid (Chemistry)
+  51790: Glucose, CSF (Chemistry)
+  51478: Glucose (Hematology)
+
+'SUGAR' found in 1 lab items:
+  51293: Sugar Water Test (Hematology)
+
+'HEMOGLOBIN' found in 25 lab items:
+  50811: Hemoglobin (Blood Gas)
+  50814: Methemoglobin (Blood Gas)
+  52032: P50 of Hemoglobin (Blood Gas)
+  50805: Carboxyhemoglobin (Blood Gas)
+  51641: Hemoglobin  A (Chemistry)
+  51640: Hemoglobin (Chemistry)
+  50852: % Hemoglobin A1c (Chemistry)
+  51631: Glycated Hemoglobin (Chemistry)
+  51643: Hemoglobin  A2 (Chemistry)
+  51647: Hemoglobin  S (Chemistry)
+  51645: Hemoglobin, Calculated (Chemistry)
+  51646: Hemoglobin  F (Chemistry)
+  51642: Hemoglobin  A1 (Chemistry)
+  50855: Absolute Hemoglobin (Chemistry)
+  51644: Hemoglobin  C (Chemistry)
+  51224: Hemoglobin C (Hematology)
+  52144: Methemoglobin (Hematology)
+  51212: Fetal Hemoglobin (Hematology)
+  52129: Hemoglobin Other (Hematology)
+  52128: Hemoglobin H Inclusion (Hematology)
+  51222: Hemoglobin (Hematology)
+  51285: Reticulocyte, Cellular Hemoglobin (Hematology)
+  51223: Hemoglobin A2 (Hematology)
+  52157: Plasma Hemoglobin (Hematology)
+  51225: Hemoglobin F (Hematology)
+
+'INSULIN' found in 1 lab items:
+  51676: Insulin (Chemistry)
+
+'CHOLESTEROL' found in 12 lab items:
+  50905: Cholesterol, LDL, Calculated (Chemistry)
+  50907: Cholesterol, Total (Chemistry)
+  50904: Cholesterol, HDL (Chemistry)
+  50906: Cholesterol, LDL, Measured (Chemistry)
+  50903: Cholesterol Ratio (Total/HDL) (Chemistry)
+  51935: Cholesterol, Stool (Chemistry)
+  50840: Cholesterol, Ascites (Chemistry)
+  51051: Cholesterol, Pleural (Chemistry)
+  51814: Cholesterol, Joint Fluid (Chemistry)
+  51031: Cholesterol, Body Fluid (Chemistry)
+  51785: Cholesterol, CSF (Chemistry)
+  51472: Cholesterol Crystals (Hematology)
+
+'TRIGLYCERIDE' found in 6 lab items:
+  51000: Triglycerides (Chemistry)
+  51950: Triglycerides, Stool (Chemistry)
+  50850: Triglycerides, Ascites (Chemistry)
+  51060: Triglycerides, Pleural (Chemistry)
+  51824: Triglycerides, Joint Fluid (Chemistry)
+  51803: Triglycerides, CSF (Chemistry)
+
+'HDL' found in 2 lab items:
+  50904: Cholesterol, HDL (Chemistry)
+  50903: Cholesterol Ratio (Total/HDL) (Chemistry)
+
+'LDL' found in 3 lab items:
+  50905: Cholesterol, LDL, Calculated (Chemistry)
+  51722: RFXLDLM (Chemistry)
+  50906: Cholesterol, LDL, Measured (Chemistry)
+
+'CREATININE' found in 20 lab items:
+  52024: Creatinine, Whole Blood (Blood Gas)
+  50912: Creatinine (Chemistry)
+  52546: Creatinine (Chemistry)
+  51937: Creatinine, Stool (Chemistry)
+  51070: Albumin/Creatinine, Urine (Chemistry)
+  51073: Amylase/Creatinine Ratio, Urine (Chemistry)
+  51081: Creatinine, Serum (Chemistry)
+  51080: Creatinine Clearance (Chemistry)
+  51067: 24 hr Creatinine (Chemistry)
+  51106: Urine Creatinine (Chemistry)
+  51099: Protein/Creatinine Ratio (Chemistry)
+  51977: Creatinine, Blood (Chemistry)
+  51963: Amylase/Creatinine Clearance (Chemistry)
+  52000: Urine  Creatinine (Chemistry)
+  51082: Creatinine, Urine (Chemistry)
+  50841: Creatinine, Ascites (Chemistry)
+  51052: Creatinine, Pleural (Chemistry)
+  51021: Creatinine, Joint Fluid (Chemistry)
+  51032: Creatinine, Body Fluid (Chemistry)
+  51787: Creatinine, CSF (Chemistry)
+
+'UREA' found in 9 lab items:
+  52647: Urea Nitrogen (Chemistry)
+  51006: Urea Nitrogen (Chemistry)
+  51951: Urea Nitrogen, Stool (Chemistry)
+  51104: Urea Nitrogen, Urine (Chemistry)
+  50851: Urea Nitrogen, Ascites (Chemistry)
+  51922: Urea Nitrogen, Pleural (Chemistry)
+  51825: Urea Nitrogen, Joint Fluid (Chemistry)
+  51045: Urea Nitrogen, Body Fluid (Chemistry)
+  51804: Urea Nitrogen, CSF (Chemistry)
+
+'BUN' found in 1 lab items:
+  51842: Bun (Chemistry)
+
+'ALBUMIN' found in 21 lab items:
+  52022: Albumin, Blood (Blood Gas)
+  53138: (Albumin) (Chemistry)
+  50862: Albumin (Chemistry)
+  53085: Albumin (Chemistry)
+  51926: (Albumin) (Chemistry)
+  51927: Albumin, Stool (Chemistry)
+  51070: Albumin/Creatinine, Urine (Chemistry)
+  51069: Albumin, Urine (Chemistry)
+  52703: Albumin, Urine (Chemistry)
+  50835: Albumin, Ascites (Chemistry)
+  53116: (Albumin) (Chemistry)
+  51910: (Albumin) (Chemistry)
+  51046: Albumin, Pleural (Chemistry)
+  51019: Albumin, Joint Fluid (Chemistry)
+  51807: (Albumin) (Chemistry)
+  51025: Albumin, Body Fluid (Chemistry)
+  51897: Surfactant/Albumin (Chemistry)
+  51836: <Albumin> (Chemistry)
+  51776: <Albumin> (Chemistry)
+  51775: (Albumin) (Chemistry)
+  51777: Albumin, CSF (Chemistry)
+
+'PROTEIN' found in 21 lab items:
+  50976: Protein, Total (Chemistry)
+  50975: Protein Electrophoresis (Chemistry)
+  53096: Protein, Total (Chemistry)
+  50864: Alpha-Fetoprotein (Chemistry)
+  50889: C-Reactive Protein (Chemistry)
+  51949: Total Protein, Stool (Chemistry)
+  51102: Total Protein, Urine (Chemistry)
+  51068: 24 hr Protein (Chemistry)
+  51099: Protein/Creatinine Ratio (Chemistry)
+  51992: Protein (Chemistry)
+  50849: Total Protein, Ascites (Chemistry)
+  51059: Total Protein, Pleural (Chemistry)
+  51024: Total Protein, Joint Fluid (Chemistry)
+  51043: Total Protein, Body Fluid (Chemistry)
+  51802: Total Protein, CSF (Chemistry)
+  51273: Protein S, Functional (Hematology)
+  51272: Protein S, Antigen (Hematology)
+  51270: Protein C, Antigen (Hematology)
+  52162: Protein S (Hematology)
+  51271: Protein C, Functional (Hematology)
+  51492: Protein (Hematology)
+
+'KETONE' found in 2 lab items:
+  51984: Ketone (Chemistry)
+  51484: Ketone (Hematology)
+
+'LACTATE' found in 8 lab items:
+  50813: Lactate (Blood Gas)
+  52442: Lactate (Blood Gas)
+  50954: Lactate Dehydrogenase (LD) (Chemistry)
+  53154: Lactate (Chemistry)
+  51944: Lactate Dehydrogenase, Stool (Chemistry)
+  50843: Lactate Dehydrogenase, Ascites (Chemistry)
+  51054: Lactate Dehydrogenase, Pleural (Chemistry)
+  51795: Lactate Dehydrogenase, CSF (Chemistry)
+
+'ANION' found in 2 lab items:
+  52500: Anion Gap (Chemistry)
+  50868: Anion Gap (Chemistry)
+
+'GAP' found in 2 lab items:
+  52500: Anion Gap (Chemistry)
+  50868: Anion Gap (Chemistry)
+
+'OSMOLALITY' found in 11 lab items:
+  52031: Osmolality (Blood Gas)
+  52044: Osmolality, Urine (Blood Gas)
+  50964: Osmolality, Measured (Chemistry)
+  51701: Osmolality, Calculated (Chemistry)
+  51063: Osmolality, Stool (Chemistry)
+  51093: Osmolality, Urine (Chemistry)
+  50846: Osmolality, Ascites (Chemistry)
+  51919: Osmolality, Pleural (Chemistry)
+  51820: Osmolality, Joint Fluid (Chemistry)
+  51039: Osmolality, Body Fluid (Chemistry)
+  51797: Osmolality, CSF (Chemistry)
+
+============================================================
+2. SYSTEMATIC EXPLORATION OF ALL MEDICATIONS
+============================================================
+
+Total prescriptions: 18087
+Unique medications: 631
+
+All unique medications (first 50):
+ 1. *NF* Ertapenem Sodium
+ 2. 0.45% Sodium Chloride
+ 3. 0.83% Sodium Chloride
+ 4. 0.9% NaCl (EXCEL/ViaFLO BAG)
+ 5. 0.9% Sodium Chloride
+ 6. 0.9% Sodium Chloride (Mini Bag Plus)
+ 7. 23.4% Sodium Chloride
+ 8. 5% Dextrose
+ 9. 5% Dextrose (EXCEL BAG)
+10. ALPRAZolam
+11. AcetaZOLamide
+12. AcetaZOLamide Sodium
+13. Acetaminophen
+14. Acetaminophen (Liquid)
+15. Acetaminophen IV
+16. Acetaminophen w/Codeine
+17. Acetaminophen-Caff-Butalbital
+18. Acetylcysteine (IV)
+19. Acetylcysteine 20%
+20. Acyclovir
+21. Albumin 25% 
+22. Albumin 25% (12.5g / 50mL)
+23. Albumin 5%
+24. Albumin 5% 
+25. Albumin 5% (12.5g / 250mL)
+26. Albumin 5% (25g / 500mL)
+27. Albuterol 0.083% Neb Soln
+28. Albuterol Inhaler
+29. Albuterol-Ipratropium
+30. Allopurinol
+31. Alprazolam
+32. Alteplase
+33. Alteplase (Catheter Clearance)
+34. Aluminum Hydroxide Suspension
+35. Aluminum-Magnesium Hydrox.-Simethicone
+36. Amantadine
+37. Ambisome
+38. Amino Acids 4.25%-Dextrose 5%
+39. Amino Acids 5%-Dextrose 15%
+40. Aminocaproic Acid
+41. Amiodarone
+42. Amitriptyline
+43. Amlodipine
+44. Amoxicillin
+45. Amoxicillin-Clavulanic Acid
+46. Ampicillin Sodium
+47. Ampicillin-Sulbactam
+48. AndroGel
+49. Apixaban
+50. Aquaphor Ointment
+... and 581 more medications
+
+----------------------------------------
+POTENTIAL DIABETES-RELATED MEDICATIONS:
+
+'INSULIN' found in 972 prescriptions:
+  Insulin (915 prescriptions)
+  Insulin (Regular) for Hyperkalemia (8 prescriptions)
+  Insulin Glargine  (CVICU Protocol) (3 prescriptions)
+  Insulin Human Regular (39 prescriptions)
+  Insulin Pump (Self Administering Medication) (3 prescriptions)
+  Insulin Regular Human (U-500) (2 prescriptions)
+  Insulin Syringe U-500 (2 prescriptions)
+
+'METFORMIN' found in 18 prescriptions:
+  MetFORMIN (Glucophage) (16 prescriptions)
+  MetFORMIN XR (Glucophage XR) (2 prescriptions)
+
+'GLIPIZIDE' found in 11 prescriptions:
+  GlipiZIDE (5 prescriptions)
+  GlipiZIDE XL (6 prescriptions)
+
+'GLYBURIDE' found in 3 prescriptions:
+  GlyBURIDE (3 prescriptions)
+
+============================================================
+3. SYSTEMATIC EXPLORATION OF ALL DIAGNOSIS CODES
+============================================================
+
+Total diagnoses: 4506
+Unique ICD codes: 1472
+
+DIABETES-RELATED ICD CODES (250.x):
+Found 58 diagnosis records with diabetes codes
+
+Diabetes code frequencies:
+  25000: 33 cases - Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled
+  25002: 5 cases - Diabetes mellitus without mention of complication, type II or unspecified type, uncontrolled
+  25062: 4 cases - Diabetes with neurological manifestations, type II or unspecified type, uncontrolled
+  25012: 3 cases - Diabetes with ketoacidosis, type II or unspecified type, uncontrolled
+  25040: 2 cases - Diabetes with renal manifestations, type II or unspecified type, not stated as uncontrolled
+  25080: 2 cases - Diabetes with other specified manifestations, type II or unspecified type, not stated as uncontrolled
+  25082: 2 cases - Diabetes with other specified manifestations, type II or unspecified type, uncontrolled
+  25022: 1 cases - Diabetes with hyperosmolarity, type II or unspecified type, uncontrolled
+  25050: 1 cases - Diabetes with ophthalmic manifestations, type II or unspecified type, not stated as uncontrolled
+  25060: 1 cases - Diabetes with neurological manifestations, type II or unspecified type, not stated as uncontrolled
+  2511: 1 cases - Other specified hypoglycemia
+  2536: 1 cases - Other disorders of neurohypophysis
+  25541: 1 cases - Glucocorticoid deficiency
+  2555: 1 cases - Other adrenal hypofunction
+
+OTHER DIABETES-RELATED DIAGNOSES:
+
+'DIABETES' found in 714 diagnosis descriptions:
+  25010: Diabetes with ketoacidosis, type II or unspecified type, not stated as uncontrolled (0 cases)
+  25053: Diabetes with ophthalmic manifestations, type I [juvenile type], uncontrolled (0 cases)
+  25050: Diabetes with ophthalmic manifestations, type II or unspecified type, not stated as uncontrolled (1 cases)
+  3572: Polyneuropathy in diabetes (3 cases)
+  24931: Secondary diabetes mellitus with other coma, uncontrolled (0 cases)
+  24921: Secondary diabetes mellitus with hyperosmolarity, uncontrolled (0 cases)
+  25020: Diabetes with hyperosmolarity, type II or unspecified type, not stated as uncontrolled (0 cases)
+  25033: Diabetes with other coma, type I [juvenile type], uncontrolled (0 cases)
+  25012: Diabetes with ketoacidosis, type II or unspecified type, uncontrolled (3 cases)
+  25073: Diabetes with peripheral circulatory disorders, type I [juvenile type], uncontrolled (0 cases)
+
+'DIABETIC' found in 491 diagnosis descriptions:
+  36207: Diabetic macular edema (0 cases)
+  36229: Other nondiabetic proliferative retinopathy (0 cases)
+  36202: Proliferative diabetic retinopathy (0 cases)
+  36641: Diabetic cataract (0 cases)
+  36203: Nonproliferative diabetic retinopathy NOS (0 cases)
+  E9323: Insulins and antidiabetic agents causing adverse effects in therapeutic use (0 cases)
+  36204: Mild nonproliferative diabetic retinopathy (0 cases)
+  36206: Severe nonproliferative diabetic retinopathy (0 cases)
+  9623: Poisoning by insulins and antidiabetic agents (1 cases)
+  7750: Syndrome of "infant of a diabetic mother" (0 cases)
+
+'HYPERGLYCEMIA' found in 6 diagnosis descriptions:
+  E0865: Diabetes mellitus due to underlying condition with hyperglycemia (1 cases)
+  R739: Hyperglycemia, unspecified (0 cases)
+  E1365: Other specified diabetes mellitus with hyperglycemia (0 cases)
+  E0965: Drug or chemical induced diabetes mellitus with hyperglycemia (0 cases)
+  E1165: Type 2 diabetes mellitus with hyperglycemia (9 cases)
+  E1065: Type 1 diabetes mellitus with hyperglycemia (0 cases)
+
+'HYPOGLYCEMIA' found in 23 diagnosis descriptions:
+  2512: Hypoglycemia, unspecified (0 cases)
+  7756: Neonatal hypoglycemia (0 cases)
+  2511: Other specified hypoglycemia (1 cases)
+  E10641: Type 1 diabetes mellitus with hypoglycemia with coma (0 cases)
+  E1164: Type 2 diabetes mellitus with hypoglycemia (0 cases)
+  E161: Other hypoglycemia (0 cases)
+  E11641: Type 2 diabetes mellitus with hypoglycemia with coma (0 cases)
+  E08649: Diabetes mellitus due to underlying condition with hypoglycemia without coma (0 cases)
+  E1364: Other specified diabetes mellitus with hypoglycemia (0 cases)
+  E09641: Drug or chemical induced diabetes mellitus with hypoglycemia with coma (0 cases)
+
+'KETOACIDOSIS' found in 21 diagnosis descriptions:
+  25010: Diabetes with ketoacidosis, type II or unspecified type, not stated as uncontrolled (0 cases)
+  25012: Diabetes with ketoacidosis, type II or unspecified type, uncontrolled (3 cases)
+  25011: Diabetes with ketoacidosis, type I [juvenile type], not stated as uncontrolled (0 cases)
+  25013: Diabetes with ketoacidosis, type I [juvenile type], uncontrolled (0 cases)
+  24910: Secondary diabetes mellitus with ketoacidosis, not stated as uncontrolled, or unspecified (0 cases)
+  24911: Secondary diabetes mellitus with ketoacidosis, uncontrolled (0 cases)
+  E1311: Other specified diabetes mellitus with ketoacidosis with coma (0 cases)
+  E0910: Drug or chemical induced diabetes mellitus with ketoacidosis without coma (0 cases)
+  E1111: Type 2 diabetes mellitus with ketoacidosis with coma (0 cases)
+  E101: Type 1 diabetes mellitus with ketoacidosis (0 cases)
+
+============================================================
+4. CROSS-REFERENCE WITH ACTUAL DIABETES PATIENTS
+============================================================
+
+Identified 26 diabetes patients
+
+Loading lab events to see what was actually ordered for diabetes patients...
+
+MOST COMMON LAB TESTS ORDERED FOR DIABETES PATIENTS:
+  50912: Creatinine (917 tests)
+  51006: Urea Nitrogen (908 tests)
+  51221: Hematocrit (885 tests)
+  50971: Potassium (877 tests)
+  50983: Sodium (874 tests)
+  50902: Chloride (863 tests)
+  51265: Platelet Count (856 tests)
+  51222: Hemoglobin (852 tests)
+  51249: MCHC (840 tests)
+  51248: MCH (840 tests)
+  51301: White Blood Cells (840 tests)
+  51250: MCV (840 tests)
+  51279: Red Blood Cells (840 tests)
+  51277: RDW (840 tests)
+  50882: Bicarbonate (828 tests)
+  50868: Anion Gap (826 tests)
+  50931: Glucose (804 tests)
+  50960: Magnesium (683 tests)
+  50893: Calcium, Total (670 tests)
+  50970: Phosphate (652 tests)
+
+MOST COMMON MEDICATIONS PRESCRIBED TO DIABETES PATIENTS:
+  Insulin (596 prescriptions)
+  0.9% Sodium Chloride (247 prescriptions)
+  Sodium Chloride 0.9%  Flush (177 prescriptions)
+  Potassium Chloride (166 prescriptions)
+  Furosemide (154 prescriptions)
+  Bag (137 prescriptions)
+  Magnesium Sulfate (127 prescriptions)
+  Acetaminophen (115 prescriptions)
+  Iso-Osmotic Dextrose (114 prescriptions)
+  Vancomycin (111 prescriptions)
+  HYDROmorphone (Dilaudid) (104 prescriptions)
+  5% Dextrose (96 prescriptions)
+  Metoprolol Tartrate (88 prescriptions)
+  Dextrose 50% (86 prescriptions)
+  Glucagon (79 prescriptions)
+  Senna (77 prescriptions)
+  Docusate Sodium (76 prescriptions)
+  Heparin (69 prescriptions)
+  Sodium Chloride 0.9% (68 prescriptions)
+  Lactated Ringers (67 prescriptions)
+
+============================================================
+5. DATA-DRIVEN SUMMARY AND RECOMMENDATIONS
+============================================================
+
+VALIDATED FINDINGS FROM ACTUAL DATA:
+• 18 types of diabetes-related lab tests found
+• 4 types of diabetes medications found
+• 26 diabetes patients identified
+• 14 different diabetes ICD codes used

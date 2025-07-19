@@ -1,0 +1,78 @@
+
+============================================================
+SUMMARY OF VALIDATED FINDINGS
+============================================================
+
+DATASET VALIDATION RESULTS:
+• Diabetes patients identified: 26 (26.0% of total)
+• Validated diabetes-related labs: 8
+• Validated diabetes medications: 2
+• Successful lab analyses: 8
+
+VALIDATED DIABETES ICD CODES:
+  25000: 33 cases
+  25002: 5 cases
+  25062: 4 cases
+  25012: 3 cases
+  25082: 2 cases
+  25080: 2 cases
+  25040: 2 cases
+  25050: 1 cases
+  25060: 1 cases
+  25022: 1 cases
+
+VALIDATED DIABETES LABS:
+  50912: Creatinine (917 tests)
+  51006: Urea Nitrogen (908 tests)
+  50971: Potassium (877 tests)
+  50983: Sodium (874 tests)
+  50902: Chloride (863 tests)
+  51222: Hemoglobin (852 tests)
+  50868: Anion Gap (826 tests)
+  50931: Glucose (804 tests)
+
+VALIDATED DIABETES MEDICATIONS:
+  Insulin: 596 prescriptions
+  Glucose Gel: 64 prescriptions
+
+STATISTICAL RESULTS:
+
+Creatinine:
+  Mean difference: 0.04
+  Diabetes: 1.57 ± 1.36
+  Non-diabetes: 1.53 ± 1.52
+
+Urea Nitrogen:
+  Mean difference: 4.20
+  Diabetes: 30.81 ± 25.01
+  Non-diabetes: 26.61 ± 23.08
+
+Potassium:
+  Mean difference: 0.10
+  Diabetes: 4.27 ± 0.61
+  Non-diabetes: 4.16 ± 0.63
+
+Sodium:
+  Mean difference: 1.18
+  Diabetes: 138.31 ± 5.62
+  Non-diabetes: 137.14 ± 5.13
+
+Chloride:
+  Mean difference: -0.60
+  Diabetes: 100.65 ± 6.59
+  Non-diabetes: 101.24 ± 6.39
+
+Hemoglobin:
+  Mean difference: -0.26
+  Diabetes: 9.88 ± 2.42
+  Non-diabetes: 10.14 ± 2.11
+
+Anion Gap:
+  Mean difference: 0.47
+  Diabetes: 15.28 ± 3.82
+  Non-diabetes: 14.82 ± 4.48
+
+Glucose:
+  Mean difference: 38.55
+  Diabetes: 171.14 ± 98.32
+  Non-diabetes: 132.60 ± 60.76
